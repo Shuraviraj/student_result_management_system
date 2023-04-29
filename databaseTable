@@ -1,0 +1,22 @@
+create table result(
+rollNo int primary key,
+physics varchar(10),
+maths varchar(10),
+em varchar(10),
+dbms varchar(10),
+os varchar(10)
+)
+
+create table admin(
+username varchar(10) primary key,
+pass varchar(10)
+)
+
+create table student(
+rollNo int primary key,
+course varchar(100),
+branch varchar(100),
+fullname varchar(100),
+gender varchar(100),
+fathername varchar(100)
+)
